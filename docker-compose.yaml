@@ -3,7 +3,7 @@ version: '3.8'
 services:
   avito-shop-service:
       build: ../../Downloads
-      container_name: avito-shop-service
+      container_name: avito-shop-services
       ports:
         - "8080:8080"
       environment:
